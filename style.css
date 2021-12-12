@@ -1,0 +1,33 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #2c3e50;
+  width: 800px;
+  margin: 0 auto;
+  /* margin-top: 60px; */
+}
+.choice {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.user-choice {
+  flex: 1;
+  background-color: rgba(23, 147, 230, 0.726);
+  /* margin: 5px */
+  color: #fff;
+
+  padding: 20px;
+}
+.choice:hover {
+  transition: all 2s;
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+.choice-prefix {
+  color: #fff;
+  padding: 20px;
+  background-color: chocolate;
+}

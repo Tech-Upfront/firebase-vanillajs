@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+  </head>
+  <body>
+    <style>
+      .done {
+        color: grey;
+        text-decoration: line-through;
+      }
+    </style>
+    <!-- pic -->
+    <h5 class="center-align">Todolist Database</h5>
+    <div id="app">
+      <form action="#">
+        <input type="text" name="text" id="" />
+
+        <button type="submit" class="btn blue">Submit</button>
+
+        <p id="active-count"></p>
+        <p id="completed"></p>
+      </form>
+    </div>
+    <ul class="collection list container"></ul>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
